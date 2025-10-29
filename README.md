@@ -1,73 +1,85 @@
-# Welcome to your Lovable project
+# ⚡ Speed Pulse Watch
 
-## Project info
+**Speed Pulse Watch** is a modern web application that monitors and visualizes your internet speed in real time.  
+Built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn-ui**, it offers a clean, responsive, and dynamic user interface.
 
-**URL**: https://lovable.dev/projects/d4d1d00e-0bef-4e24-86d4-fab9cdaca03b
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 📊 **Real-time Internet Speed Tracking**
+- 🎛️ **Interactive Speed Gauge**
+- 💻 **Responsive UI** (works seamlessly on all devices)
+- 🌙 **Modern Design** powered by Tailwind + shadcn
+- ⚙️ **Fast Build and Dev Server** using Vite
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d4d1d00e-0bef-4e24-86d4-fab9cdaca03b) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Technology | Purpose |
+|-------------|----------|
+| **React + TypeScript** | Frontend framework for component-based UI |
+| **Vite** | Lightning-fast build tool and development server |
+| **Tailwind CSS** | Utility-first styling |
+| **shadcn/ui** | Elegant, prebuilt UI components |
+| **Supabase (optional)** | Backend or database integration |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Make sure you have **Node.js** and **npm** installed.
 
-Follow these steps:
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/md7187-netshield/networks-lane.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 2️⃣ Navigate to the project folder
+cd networks-lane
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 3️⃣ Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4️⃣ Start the development server
 npm run dev
-```
+You can deploy your app directly from Lovable
 
-**Edit a file directly in GitHub**
+or host it manually using Vercel, Netlify, or GitHub Pages.
+speed-pulse-watch/
+│
+├── public/              # Static assets
+├── src/                 # Main source code
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Page components
+│   ├── hooks/           # Custom React hooks
+│   ├── lib/             # Utility functions
+│   └── main.tsx         # Entry point
+│
+├── package.json         # Dependencies and scripts
+├── vite.config.ts       # Vite configuration
+├── tailwind.config.ts   # Tailwind setup
+└── tsconfig.json        # TypeScript configuration
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Developer Info
 
-## What technologies are used for this project?
+Author: @md7187-netshield
 
-This project is built with:
+Email: md7187@srmist.edu.in
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🧠 Future Enhancements
 
-## How can I deploy this project?
+Integration with APIs for advanced analytics
 
-Simply open [Lovable](https://lovable.dev/projects/d4d1d00e-0bef-4e24-86d4-fab9cdaca03b) and click on Share -> Publish.
+Dark mode customization
 
-## Can I connect a custom domain to my Lovable project?
+User authentication (via Supabase or Firebase)
 
-Yes, you can!
+Dashboard for speed history tracking
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+🏁 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is open-source and available under the MIT License.
